@@ -1,15 +1,9 @@
-$fontColor: #0091aa;
-$colorHeading: #be4a14;
-#content  // div with id: content
+li:nth-child(odd)
 {
-    color: $fontColor;
+    color:yellow;
+    background-color: black;
 }
-
-h2
-{
-    color: $colorHeading;
-}
-
-h1{
-    @extend h2;
+li:nth-child(even){
+    color:black;
+    background-color: yellow;
 }
